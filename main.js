@@ -23,4 +23,4 @@ const numsToString = (numArray) => {
 }
 
 let arr1 = [2, 300, 56, 74, 9];
-console.log(numsToString(process.argv.slice(2)));
+console.log(numsToString(process.argv.slice(2)).join());
