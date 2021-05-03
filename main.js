@@ -22,5 +22,6 @@ const numsToString = (numArray) => {
     return phoneticNums;
 }
 
-let arr1 = [2, 300, 56, 74, 9];
-console.log(numsToString(process.argv.slice(2)).join());
+numArray = process.argv.slice(2);
+result = numsToString(numArray).join();
+console.log(result);
